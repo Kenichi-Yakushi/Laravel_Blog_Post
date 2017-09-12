@@ -16,11 +16,23 @@ http://qiita.com/pugiemonn/items/3d000ac0486987dd92df
 
 .envファイルを作成する
 
+```
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=blog_prac_laravel
+DB_USERNAME=dbuser
+DB_PASSWORD=wmiesdiocm3262
+```
+
+artisanディレクトリのある階層で
+php artisan key:generate
+
 http://qiita.com/YU81/items/d1b2100aae53d2088a2c
 
-artisanディレクトリのある階層で、php artisan migrate
+php artisan migrate
 
-## URL 
+## URL
 ログイン画面が最初に出ます。
 
 ログイン画面
